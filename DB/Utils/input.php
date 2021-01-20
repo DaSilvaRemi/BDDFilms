@@ -14,10 +14,10 @@ function inserer($datafilm, $tabact, $dataprod, $datareal)
 function connexion()
 {
 	// connexion à la base de données
-	$db_username = 'sriruangp';
-	$db_password = 'DyhYWVGou31H';
-	$db_name     = 'sriruangp';
-	$db_host     = 'localhost';
+	$db_username = '';
+	$db_password = '';
+	$db_name     = '';
+	$db_host     = '';
 	$db = mysqli_connect($db_host, $db_username, $db_password, $db_name)
 		or die('Impossible de se connecter');
 	return $db;
