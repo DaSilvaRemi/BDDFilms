@@ -1,0 +1,104 @@
+body{
+    background-color: #666666;
+    color: white;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  header nav li {
+    float: left;
+  }
+  
+  header nav li .click{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  header nav li .click:hover {
+    background-color: #149414 ;
+  }
+  header nav li .deco{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  header nav li .deco:hover {
+    background-color: #111 ;
+  }
+
+  header nav .droite 
+  {
+    float:right;
+    margin-top: 8px;
+    margin-right: 16px;
+  }
+  header nav .droite[title=Cinephil]{
+      margin-top: 0;
+  }
+
+  header nav .droite img{
+      width: 32px;
+      height: 32px;
+  }
+
+ #Login,#Login img{
+    margin-top: -2px;
+    margin-right: 0;
+    padding: 0;  
+    position: relative;
+ }
+ header nav input{
+  float: right;
+  padding: 6px;
+  border: none;
+
+ }
+
+ header nav input[type=text] {
+    font-size: 17px;
+  }
+
+  header nav input[type=submit] {
+    background-color:#22427C 	;
+    color: white;
+    padding: 0px;
+    /*padding: 14px 20px;*/
+    margin: 5px;
+    margin-top: 1px;
+    cursor: pointer;
+    height: 30px;
+  }
+
+  header nav input[type="submit"]:hover {
+    background-color: white;
+    color: #22427C;
+    border: 1px solid #22427C ;
+  }
+
+  h1{
+      color: white;
+      text-align: center;
+  }
+
+  .titretable {
+    text-align: center;
+  }
+
+  section{
+    margin-top: 5rem;
+  }

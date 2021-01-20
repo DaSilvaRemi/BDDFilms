@@ -1,0 +1,100 @@
+#Connexion {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+  /* Bordered form */
+  #Connexion form {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10rem;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    color: black;
+  }
+  #Connexion h1 {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Full-width inputs */
+  #Connexion input[type="text"],input[type="password"],input[type="radio"],
+  input[type="file"],input[type="file"] , input[type="date"],input[type="number"] ,select option,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  form input[type="submit"] {
+    background-color:#22427C 	;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  form input[type="submit"]:hover {
+    background-color: white;
+    color: #22427C;
+    border: 1px solid #22427C ;
+  }
+
+  #Visualisation {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 1%;
+  }
+
+  /* Bordered form */
+  #Visualisation form {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10rem;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    color: black;
+  }
+  #Visualisation h1 {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Full-width inputs */
+  #Visualisation input[type="text"],input[type="radio"],input[type="date"],input[type="number"] ,
+  input[type="button"],select option,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  #Visualisation input[type="button"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  #Visualisation input[type="button"]:hover {
+    background-color: #34C924 ;
+    color: white;
+    border: 1px solid #22427C ;
+  }
